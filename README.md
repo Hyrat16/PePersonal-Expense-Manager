@@ -1,54 +1,33 @@
-# React + TypeScript + Vite
+# Personal Expense Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Personal Expense Manager project developed with React, using the `dayjs` library to manipulate dates and an API to manage expense data.
 
-Currently, two official plugins are available:
+Project initiated and developed thinking about improving studies within React + TypeScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📋 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Add new expenses with description, value, category and date.
+- List all registered expenses.
+- Filter expenses by description, category, date or amount.
+- Sort expenses by date.
+- Delete expenses from the list.
+- Display of metrics such as:
+  - Total spent in the month.
+  - Average daily expenses.
+  - Highest recorded expense.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 Technologies Used
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **Frontend**: React, TypeScript
+- **State Management**: React Hooks (`useState`, `useEffect`)
+- **Date Manipulation**: `dayjs`
+- **Styling**: CSS Modules
+- **Backend**: Local API (simulated with `json-server` or other technology)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Any suggestion for improvement is welcome
+
+---
