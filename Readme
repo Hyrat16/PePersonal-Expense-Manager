@@ -1,33 +1,33 @@
-# Gerenciador de Despesas Pessoais
+# Personal Expense Manager
 
-Este é um projeto de Gerenciador de Despesas Pessoais desenvolvido com React, utilizando a biblioteca `dayjs` para manipulação de datas e uma API para gerenciar os dados de despesas.
+This is a Personal Expense Manager project developed with React, using the `dayjs` library to manipulate dates and an API to manage expense data.
 
-Projeto inicializado e desenvolvido pensando no aprimoramento dos estudos dentro do React + TypeScript.
-
----
-
-## 📋 Funcionalidades
-
-- Adicionar novas despesas com descrição, valor, categoria e data.
-- Listar todas as despesas cadastradas.
-- Filtrar despesas por descrição, categoria, data ou valor.
-- Ordenar despesas por data.
-- Excluir despesas da lista.
-- Exibição de métricas como:
-  - Total gasto no mês.
-  - Média diária de gastos.
-  - Maior despesa registrada.
+Project initiated and developed thinking about improving studies within React + TypeScript.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 📋 Features
+
+- Add new expenses with description, value, category and date.
+- List all registered expenses.
+- Filter expenses by description, category, date or amount.
+- Sort expenses by date.
+- Delete expenses from the list.
+- Display of metrics such as:
+  - Total spent in the month.
+  - Average daily expenses.
+  - Highest recorded expense.
+
+---
+
+## 🚀 Technologies Used
 
 - **Frontend**: React, TypeScript
-- **Gerenciamento de Estado**: React Hooks (`useState`, `useEffect`)
-- **Manipulação de Datas**: `dayjs`
-- **Estilização**: CSS Modules
-- **Backend**: API local (simulada com `json-server` ou outra tecnologia)
+- **State Management**: React Hooks (`useState`, `useEffect`)
+- **Date Manipulation**: `dayjs`
+- **Styling**: CSS Modules
+- **Backend**: Local API (simulated with `json-server` or other technology)
 
-Toda sugestao de melhora e bem vinda
+Any suggestion for improvement is welcome
 
 ---
