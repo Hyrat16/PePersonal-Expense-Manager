@@ -1,0 +1,20 @@
+.expensesList table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.expensesList th,
+.expensesList td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.expensesList th {
+  background: #ff758c;
+  color: white;
+}

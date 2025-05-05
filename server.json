@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "id": "f72f",
+      "description": "agasdga",
+      "amount": "0.04",
+      "category": "saude",
+      "date": "2025-05-03"
+    },
+    {
+      "id": "5ad2",
+      "description": "shsbhs",
+      "amount": "0.05",
+      "category": "moradia",
+      "date": "2025-04-26"
+    },
+    {
+      "id": "2498",
+      "description": "ftrgkjdfkmd",
+      "amount": "0.04",
+      "category": "moradia",
+      "date": "2025-04-18"
+    },
+    {
+      "id": "c44f",
+      "description": "saygasgas",
+      "amount": "0.04",
+      "category": "moradia",
+      "date": "2025-04-19"
+    },
+    {
+      "id": "f46a",
+      "description": "sgvsdv",
+      "amount": "0.03",
+      "category": "transporte",
+      "date": "2025-04-24"
+    },
+    {
+      "id": "34a1",
+      "description": "Almoçar",
+      "amount": "25",
+      "category": "alimentacao",
+      "date": "2025-05-01"
+    }
+  ]
+}
