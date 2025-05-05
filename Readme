@@ -1,0 +1,33 @@
+# Gerenciador de Despesas Pessoais
+
+Este é um projeto de Gerenciador de Despesas Pessoais desenvolvido com React, utilizando a biblioteca `dayjs` para manipulação de datas e uma API para gerenciar os dados de despesas.
+
+Projeto inicializado e desenvolvido pensando no aprimoramento dos estudos dentro do React + TypeScript.
+
+---
+
+## 📋 Funcionalidades
+
+- Adicionar novas despesas com descrição, valor, categoria e data.
+- Listar todas as despesas cadastradas.
+- Filtrar despesas por descrição, categoria, data ou valor.
+- Ordenar despesas por data.
+- Excluir despesas da lista.
+- Exibição de métricas como:
+  - Total gasto no mês.
+  - Média diária de gastos.
+  - Maior despesa registrada.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **Frontend**: React, TypeScript
+- **Gerenciamento de Estado**: React Hooks (`useState`, `useEffect`)
+- **Manipulação de Datas**: `dayjs`
+- **Estilização**: CSS Modules
+- **Backend**: API local (simulada com `json-server` ou outra tecnologia)
+
+Toda sugestao de melhora e bem vinda
+
+---
